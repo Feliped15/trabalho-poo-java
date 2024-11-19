@@ -11,8 +11,8 @@ import java.util.Date;
 
 @Service
 public class AuthService {
-    private static final String CLIENT_ID = "teste";
-    private static final String CLIENT_SECRET = "teste123";
+    private static final String CLIENT_ID = "java";
+    private static final String CLIENT_SECRET = "poo@2024";
     private static final long EXPIRATION_TIME = 3600000; // 1 hora
 
     private final Key secretKey = Keys.secretKeyFor(SignatureAlgorithm.HS256);
